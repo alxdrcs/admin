@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
-    'vue/no-multiple-template-root': 0
+    'vue/no-multiple-template-root': 0,
+    'vue/multi-word-component-names': 0
   }
 }
